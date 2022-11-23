@@ -1,2 +1,2 @@
 # proto-clap
-Rust clap library prototype
+Rust clap library usage prototype
