@@ -9,9 +9,13 @@ struct Value {
 
 #[derive(Subcommand)]
 enum Commands {
+    #[clap(about = "Addition of two integers")]
     Add { number_one: i32, number_two: i32 },
+    #[clap(about = "Subtraction of two integers")]
     Sub { number_one: i32, number_two: i32 },
+    #[clap(about = "Multiplication of two integers")]
     Mul { number_one: i32, number_two: i32 },
+    #[clap(about = "Division of two integers")]
     Div { number_one: i32, number_two: i32 },
 }
 
